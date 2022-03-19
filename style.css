@@ -114,6 +114,11 @@ hr {
 
 .card .time {
     font-size: 1rem;
+    color:hsl(215, 51%, 70%);
+}
+.card .time:hover{
+    color: hsl(178, 100%, 50%);
+    transition: 0.2s linear;
 }
 
 .overlay {
