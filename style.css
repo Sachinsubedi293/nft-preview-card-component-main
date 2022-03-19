@@ -69,7 +69,7 @@ body {
 }
 
 .both .amount .image {
-    margin-right: 4px;
+    margin-right: 0.3rem;
 }
 
 .attribution {
@@ -115,10 +115,13 @@ hr {
 .card .time {
     font-size: 1rem;
     color:hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.card .time:hover{
-    color: hsl(178, 100%, 50%);
-    transition: 0.2s linear;
+
+.card .time img{
+    margin-right: 0.3rem;
 }
 
 .overlay {
